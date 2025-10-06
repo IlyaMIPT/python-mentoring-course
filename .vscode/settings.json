@@ -2,7 +2,7 @@
     "[python]": {
         "editor.formatOnSave": true
     },
-    "pylint.args": ["--disable=C0114", "--disable=C0115", "--disable=C0116"],
+    "pylint.args": ["--disable=C0114", "--disable=C0115", "--disable=C0116", "--disable=C0103"],
     "files.exclude": {
         "**/*.pyc": { "when": "$(basename).py" },
         "**/__pycache__": true,
