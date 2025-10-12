@@ -5,3 +5,7 @@ last_name = "Пушкин"
 poet_name = first_name + " " + middle_name + " " + last_name
 print("Любимый поэт")
 print(poet_name)
+
+
+# интерполяция строк
+greatest_poet = f'{first_name} {middle_name} {last_name}'
