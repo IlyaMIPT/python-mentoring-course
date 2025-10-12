@@ -15,3 +15,8 @@ print(2*pi)
 print("Boolean type conversions:")
 print(str(True))
 print(bool("True"))
+
+# check string is actually a number
+s = "124"
+print(s.isnumeric(), "124 - это число")
+print("123v".isnumeric(), "Это - не число")
