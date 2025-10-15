@@ -26,3 +26,19 @@ print(purchase_list)
 # мы обращаемся к элементу по индексу:
 junk_food = purchase_list[2]
 print(junk_food)
+
+# вычислим длину списка
+print(len(purchase_list))
+
+# пройдемся по каждому элементу списка:
+for i in range(len(purchase_list)):
+    print(purchase_list[i])
+
+# распечатать каждый элемент списка
+for elem in purchase_list:
+    print(elem)
+
+# найти junk-food:
+for elem in purchase_list:
+    if elem == "Чипсы":
+        print(f"Junk food detected: {elem}")
