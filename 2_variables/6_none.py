@@ -18,7 +18,7 @@ if goods_count != 0:
     price_per_good = total_sum / goods_count
 
 if price_per_good is not None:
-    print('Средняя цена за товар;')
+    print('Средняя цена за товар:', price_per_good)
 else:
     print("Цена не определена, число товаров нулевое")
 
