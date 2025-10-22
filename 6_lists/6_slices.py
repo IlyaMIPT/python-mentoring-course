@@ -15,3 +15,9 @@ print(reasons[2:4])
 
 print("What professionals like:")
 print(reasons[4:])
+
+print("First element:")
+print(reasons[0])
+
+print("Last element:")
+print(reasons[-1])
