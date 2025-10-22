@@ -8,7 +8,6 @@ print(name_parts)
 user_tasks = "visit page, create account, subscribe, leave page"
 print(user_tasks.split(','))
 
-
 # соединить строки при помощи символа
 greatest_poet = " ".join(['Александр', 'Сергеевич', 'Пушкин'])
 print('Величайший поэт', greatest_poet)
