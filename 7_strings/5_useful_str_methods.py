@@ -13,3 +13,12 @@ else:
 # index:
 priorities = 'remote work, high salary, macbook, interesting tasks'
 print(priorities.index('high salary'))
+
+
+# replace
+priorities += ', micromanagement'
+print('Some boss added:', priorities)
+priorities = priorities.replace(
+    'micromanagement', 'no supervision if everything is done'
+)
+print('Good boss says:', priorities)
