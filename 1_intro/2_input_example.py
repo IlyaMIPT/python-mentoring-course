@@ -1,6 +1,7 @@
 # Ввод данных с клавиатуры
-your_name = input("Enter you name. ")
-print("Привет!")
+your_name = input("Ваше имя. ")
+print("Вы приняты на работу!")
 print(your_name)
 
-print(f'Пока {your_name}')
+# интерполяция строк (string interpolation)
+print(f'Дорогой,{your_name} - вы классный аналитик данных')

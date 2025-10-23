@@ -1,10 +1,10 @@
 # string to int
-s = "123"
-n = int(s)
-print(n+1)
+salary_str = "6578900"
+n = int(salary_str)
+print(n+1000000)
 
 # int to string
-money = "1234343"
+money = "18194343"
 print("Money on my bank account: " + str(money))
 
 # float to string:
@@ -17,6 +17,6 @@ print(str(True))
 print(bool("True"))
 
 # check string is actually a number
-s = "124"
-print(s.isnumeric(), "124 - это число")
-print("123v".isnumeric(), "Это - не число")
+yearly_salary = "7205679"
+print(yearly_salary.isnumeric(), "Данные - число")
+print("7205679 rub".isnumeric(), "Это - не число")

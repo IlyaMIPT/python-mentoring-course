@@ -11,5 +11,5 @@ print("Hello, world")
 
 # На самом деле, многострочный комментарий в Python - это однострочные,
 # идущие друг за другом.
-# print("I like python")
+# print("I like data analysis")
 # this is some kind of multiline comment

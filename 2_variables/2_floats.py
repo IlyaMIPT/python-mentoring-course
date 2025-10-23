@@ -1,6 +1,6 @@
 # создаем переменные, дроби
-rub_price = 1000
+data_analyst_salary = 550000
 usd_exchange_rate = 97.3
-usd_price = rub_price / usd_exchange_rate
-print('Цены в долларах и рублях')
-print(rub_price, usd_price)
+usd_salary = data_analyst_salary / usd_exchange_rate
+print('Зарплаты аналитиков в долларах и рублях')
+print(data_analyst_salary, usd_salary)
