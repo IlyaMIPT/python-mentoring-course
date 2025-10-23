@@ -3,19 +3,20 @@
 # 1 сложить
 
 # counts
-apples_count = 12
-oranges_count = 5
+analyst_macbooks_14 = 12
+de_macbooks_16 = 5  # de = data engineer
 
 # prices
-apple_price = 150
-orange_price = 190
+mac_14_price = 350000
+mac_16_price = 500000
 
 # Total fruits count
-fruits_count = apples_count + oranges_count
+laptop_count = analyst_macbooks_14 + de_macbooks_16
 
 # Total price:
-total_price = apples_count * apple_price + oranges_count * orange_price
-avg_price = total_price / fruits_count
+total_price = analyst_macbooks_14 * mac_14_price + \
+    de_macbooks_16 * mac_16_price
+avg_price = total_price / laptop_count
 
-print(f"Всего фруктов {fruits_count} шт.")
-print(f"Средняя цена {avg_price} рублей")
+print(f"Всего закуплено {laptop_count} шт.")
+print(f"Средняя цена компьютера {avg_price} рублей")
