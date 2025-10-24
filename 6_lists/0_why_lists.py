@@ -1,44 +1,45 @@
-# Покупки
-good1 = "Соль"
-good2 = "Хлеб"
-good3 = "Чипсы"
-good4 = "Масло"
-good5 = "Кефир"
+# Инструменты аналитика
+gadget_1 = "Macbook pro 16"
+gadget_2 = "Механическая клавиатура 8BitDo"
+gadget_3 = "Ретро мышка Lofree"
+gadget_4 = "iPad Pro"
+gadget_5 = "4К Монитор"
 # и так далее.
 
-print("Мои покупки")
-print(good1, good2, good3, good4, good5)
+print("Инструменты аналитика данных")
+print(gadget_1, gadget_2, gadget_3, gadget_4, gadget_5)
 
-# напишем программу, которая печатает на экране "Вредная еда", если в списке покупок есть Чипсы:
-JUNK_FOOD = "Чипсы"
-if good1 == JUNK_FOOD or \
-        good2 == JUNK_FOOD or \
-        good3 == JUNK_FOOD or \
-        good4 == JUNK_FOOD or \
-        good5 == JUNK_FOOD:
-    print("Has junk food: Кола")
+# Напишем программу, которая показывает необязательные гаджеты:
+not_required = "iPad Pro"
+if gadget_1 == not_required or \
+        gadget_2 == not_required or \
+        gadget_3 == not_required or \
+        gadget_4 == not_required or \
+        gadget_5 == not_required:
+    print("Есть необязательные гаджеты")
 
 # такие переменные невозможно обрабатывать единообразно, хотя мы видим, что это нужно.
 
 # используем список:
-purchase_list = ["Соль", "Хлеб", "Чипсы", "Масло", "Кефир"]
-print(purchase_list)
+gadgets = ["Macbook pro 16", "Механическая клавиатура 8BitDo",
+           "Ретро мышка Lofree", "iPad Pro", "4К Монитор"]
+print(gadgets)
 # мы обращаемся к элементу по индексу:
-junk_food = purchase_list[2]
-print(junk_food)
+my_keyboard = gadgets[2]
+print(my_keyboard)
 
 # вычислим длину списка
-print(len(purchase_list))
+print(len(gadgets))
 
 # пройдемся по каждому элементу списка:
-for i in range(len(purchase_list)):
-    print(purchase_list[i])
+for i in range(len(gadgets)):
+    print(gadgets[i])
 
 # распечатать каждый элемент списка
-for elem in purchase_list:
-    print(elem)
+for g in gadgets:
+    print(g)
 
-# найти junk-food:
-for elem in purchase_list:
-    if elem == "Чипсы":
-        print(f"Junk food detected: {elem}")
+# найти клавиатуру:
+for g in gadgets:
+    if g == "Механическая клавиатура 8BitDo":
+        print(f"Клавиатура detected: {g}")
