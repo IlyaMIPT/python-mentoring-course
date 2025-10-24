@@ -1,18 +1,18 @@
-my_tasks = [
-    "Погулять",
-    "Купить мороженое",
-    "Посмотреть курс Python"
+what_analysts_do = [
+    "Пишут скрипты на Python",
+    "Выгружают данные из баз данных",
+    "Обрабатывают данные в Pandas"
 ]
 
-print(my_tasks)
+print(what_analysts_do)
 
 # добавить элемент к конец списка
-my_tasks.append("Решить домашнее задание")
+what_analysts_do.append("Визуализируют данные в BI-системах")
 
 # добавить элемент в начало списка
-my_tasks.insert(0, "Собрать вещи")
-print(f'Новые задачи {my_tasks}')
+what_analysts_do.insert(0, "Улучшают бизнес")
+print(f'Новые задачи {what_analysts_do}')
 
 # добавить элемент в определенное место списка
-my_tasks.insert(2, "Поставить лайк видео")
-print(f'Финальный список задач {my_tasks}')
+what_analysts_do.insert(2, "Зарабатывают деньги")
+print(f'Итого, что аналитики делают на работе {what_analysts_do}')

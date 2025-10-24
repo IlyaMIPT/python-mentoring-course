@@ -1,14 +1,14 @@
-reasons = [
-    "it is cool",
+why_data_analysis = [
+    "It is cool",
     "I like learning new things",
     "I like coding",
-    "I want to start career in data science"
+    "To make money"
 ]
-print("All my reasons to start learning Python")
-for reason in reasons:
-    print(f"I like python because of {reasons}")
+print("All my reasons to become data analyst:")
+for reason in why_data_analysis:
+    print(f"I like python because of {why_data_analysis}")
 
-# тоже самое, но с помощью range:
+# тоже самое, но с помощью range и индекса элемента в списке:
 print("Display all list members using range function")
-for i in range(len(reasons)):
-    print(reasons[i])
+for i in range(len(why_data_analysis)):
+    print(why_data_analysis[i])
