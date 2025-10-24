@@ -13,9 +13,9 @@ junior_salary = 150000
 for v in range(min_analyst_salary, max_analyst_salary, salary_step):
     if v < junior_salary:
         print('Вы джун')
-    if v > junior_salary and v < senior_salary:
+    if junior_salary < v < senior_salary:
         print("Вы миддл")
-    if v > senior_salary:
+    if v >= senior_salary:
         print('Вы синьор, жизнь удалась')
 
 
