@@ -4,15 +4,22 @@ for i in range(10):
     print(i)
 
 # for и if
-print("Базовая версия")
-for v in range(0, 80, 5):
-    if v < 60:
-        print(f'Скорость {v} разрешена')
-    else:
-        print(f'Предупреждение, скорость {v} км/ч больше допустимой')
+print("Базовая версия range")
+min_analyst_salary = 10000
+max_analyst_salary = 800000
+salary_step = 100000
+senior_salary = 500000
+junior_salary = 150000
+for v in range(min_analyst_salary, max_analyst_salary, salary_step):
+    if v < junior_salary:
+        print('Вы джун')
+    if v > junior_salary and v < senior_salary:
+        print("Вы миддл")
+    if v > senior_salary:
+        print('Вы синьор, жизнь удалась')
 
 
-# более продвинутая версия
+# пример со скоростью движения
 
 print("Продвинутая версия")
 for v in range(0, 150, 5):
