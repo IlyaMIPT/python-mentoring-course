@@ -1,21 +1,21 @@
 # Фильтрация списков
-# список цен продуктов
+# Список цен гаджетов
 
-prices = [203, 345, 80, 40, 70, 20, 54, 76]
+gadget_prices = [203, 345, 80, 40, 70, 15, 5, 54, 76]
 
 # базовая фильтрация: распечатаем цены, которые больше заданной:
 
 MIN_DISPLAY_PRICE = 40
-for p in prices:
+for p in gadget_prices:
     if p >= MIN_DISPLAY_PRICE:
         print(p)
 
 # отфильтрованные элементы можно не просто печатать а заносить в другой список
-expensive_products = []
-for p in prices:
+expensive_gadgets = []
+for p in gadget_prices:
     if p >= MIN_DISPLAY_PRICE:
-        expensive_products.append(p)
-print(expensive_products)
+        expensive_gadgets.append(p)
+print(expensive_gadgets)
 
 # Можно создавать списки в цикле, а затем фильтровать их
 # создаем список скоростей от 0 до 80 с шагом 10

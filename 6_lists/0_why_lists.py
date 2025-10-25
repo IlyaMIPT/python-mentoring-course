@@ -40,6 +40,7 @@ for g in gadgets:
     print(g)
 
 # найти клавиатуру:
+keyboard_not_required = "Механическая клавиатура 8BitDo"
 for g in gadgets:
-    if g == "Механическая клавиатура 8BitDo":
+    if g == keyboard_not_required:
         print(f"Клавиатура detected: {g}")

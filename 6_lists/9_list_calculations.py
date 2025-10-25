@@ -1,36 +1,36 @@
 # вычисления со списками
 
 # вычислим показатель накопленным итогом:
-revenue = [100, 200, 300, 400]
-accumulated_revenue = []
+monthly_salary = [400, 420, 440, 500]
+accumulated_salary = []
 curr_accum = 0
-for r in revenue:
+for r in monthly_salary:
     curr_accum += r
-    accumulated_revenue.append(curr_accum)
+    accumulated_salary.append(curr_accum)
 
-print(accumulated_revenue)
+print(accumulated_salary)
 
 # вычислим сумму чисел в списке:
-print(sum(revenue))
-sum_revenue = 0
-for r in revenue:
-    sum_revenue += r
-print('Сумма равна', sum_revenue)
+print(sum(monthly_salary))
+sum_salary = 0
+for r in monthly_salary:
+    sum_salary += r
+print('Сумма равна', sum_salary)
 
 # вычислим длину списка:
-print('Длина списка: ', len(revenue))
+print('Длина списка: ', len(monthly_salary))
 
 # вычислим среднее значение в списке:
-print('Среднее: ', sum(revenue) / len(revenue))
+print('Среднее: ', sum(monthly_salary) / len(monthly_salary))
 
 # максимальное и минимальное значение
-print('Минимум: ', min(revenue))
-print('Максимум: ', max(revenue))
+print('Минимум: ', min(monthly_salary))
+print('Максимум: ', max(monthly_salary))
 
-# комбинация из вышеописанного: вычислить список revenue в процентах от общей суммы:
+# комбинация из вышеописанного: вычислить список salary в процентах от общей суммы:
 rev_pct = []
-for r in revenue:
-    rev_pct.append(100 * r / sum(revenue))
+for r in monthly_salary:
+    rev_pct.append(100 * r / sum(monthly_salary))
 
 print(rev_pct)
 # проверить, что сумма процентов равна 100:

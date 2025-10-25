@@ -12,7 +12,7 @@ print(lst)
 lst.insert(-5, 0)
 print(f'After insert: {lst}')
 
-# сложить (конкатенация список) списки
+# сложить (конкатенация списков) списки
 one = [1, 2, 3]
 two = [4, 5, 6]
 res = one + two

@@ -1,10 +1,10 @@
 # создание строк
-s = "Привет, мир!"
+s = "Я буду аналитиком данных"
 
 # конкатенация строк:
 greetings = "Привет,"
-world = "мир!"
-message = greetings + " " + world
+my_mission = "я стану аналитиком данных"
+message = greetings + " " + my_mission
 print(message)
 
 # получить символ строки

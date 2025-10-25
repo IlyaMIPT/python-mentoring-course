@@ -2,7 +2,7 @@ why_data_analysis = [
     "It is cool",
     "I like learning new things",
     "I like coding",
-    "To make money"
+    "Want to make money"
 ]
 print("All my reasons to become data analyst:")
 for reason in why_data_analysis:
