@@ -9,3 +9,7 @@ print("    Без промедлений".lstrip())
 
 print("Убираем пробелы в конце строки:")
 print("Сделай немедленно   ".rstrip())
+
+# Удалить полностью все пробелы из строки
+my_whitespaces_str = " это    строка  с пробелами"
+print(my_whitespaces_str.replace(" ", ""))
