@@ -32,3 +32,15 @@ print(stocks.items())
 top_stocks_list = sorted(stocks.items(), key=lambda kvp: kvp[1], reverse=True)
 top_stocks = dict(top_stocks_list[:3])
 print('Самые дорогие акции:', top_stocks)
+
+
+# соединить два словаря
+small_cap_stocks = {
+    'a': 10,
+    'b': 20
+}
+
+all_stocks = {}
+all_stocks.update(stocks)
+all_stocks.update(small_cap_stocks)
+print(all_stocks)
