@@ -25,5 +25,22 @@ https://rutube.ru/video/private/310eacf2de953adb00bec25647742792/?p=1nyO58UWmgz7
 
 https://rutube.ru/video/private/2094efba2e9667356f9f8bc568d82b73/?p=qJhQJr-OGl_H3WmXNNBi4Q
 
+https://rutube.ru/video/private/02ed20de5f8489b82be42a6b26a0bc88/?p=lzHu9BXcHKwxmvdSkqpZzg
+
+https://rutube.ru/video/private/ebeba6da02a9ac3b5bd4a77a714ef1a2/?p=bcWDYBlreXrIq5DdFiy7jA
+
+https://rutube.ru/video/private/bffcdabc881d9a844e8ec7c6be845fd6/?p=jrnwNCIVo_eaiQ4iOuxG_A
+
+https://rutube.ru/video/private/3518e8e18079bc5df44f799621994864/?p=eZch-7Zg26MswGhV2jaeYA
+
+https://rutube.ru/video/private/1aacc1b702d64e583dc8e9ceb704f367/?p=Z8K0mlBR7VcIvcIecuGgDA
+
+https://rutube.ru/video/private/a7426e627649423265a1180bb289cb89/?p=9Uv3fCxIN1EUys_i0GjhxQ
+
+https://rutube.ru/video/private/949b0bf0beaac30b4f08f95e26ef23eb/?p=d1gBox0npWlW7OstT8U37g
+
+https://rutube.ru/video/private/568ebe46dc84167ebea2235ab889873a/?p=jhE1WKQOkXhvfUNs6QtAyg
+
+
 
 Домашнее задание пришлю отдельным файлом.
