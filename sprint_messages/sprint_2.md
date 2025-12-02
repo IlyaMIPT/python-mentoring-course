@@ -60,3 +60,6 @@ https://rutube.ru/video/private/949b0bf0beaac30b4f08f95e26ef23eb/?p=d1gBox0npWlW
 https://rutube.ru/video/private/568ebe46dc84167ebea2235ab889873a/?p=jhE1WKQOkXhvfUNs6QtAyg
 
 Домашнее задание:
+https://disk.yandex.ru/d/ixGOVpaHlPOVZw
+
+Дедлайн по дз за сутки до даты занятия
