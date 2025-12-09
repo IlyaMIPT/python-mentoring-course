@@ -1,4 +1,4 @@
-Спринт 3. Строки
+Спринт 4. Функции и процедуры
 
 Привет!
 
@@ -46,6 +46,3 @@ https://rutube.ru/video/private/049f3bd8d11e0292ed56a58163cef635/?p=zGaOqYRzXTwM
 https://disk.yandex.ru/d/amzgCGlLPwUFBQ
 
 Дедлайн по дз за сутки до даты занятия
-
-
-
