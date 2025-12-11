@@ -38,6 +38,9 @@ https://rutube.ru/video/private/310eacf2de953adb00bec25647742792/?p=1nyO58UWmgz7
 Раздел 5. Видео 11. Анализ данных с помощью списков
 https://rutube.ru/video/private/2094efba2e9667356f9f8bc568d82b73/?p=qJhQJr-OGl_H3WmXNNBi4Q
 
+Раздел 5. Видео 12. Фильтрация списков
+https://rutube.ru/video/private/02ed20de5f8489b82be42a6b26a0bc88/?p=lzHu9BXcHKwxmvdSkqpZzg
+
 Раздел 5. Видео 13. Вычисления со списками
 https://rutube.ru/video/private/ebeba6da02a9ac3b5bd4a77a714ef1a2/?p=bcWDYBlreXrIq5DdFiy7jA
 
