@@ -41,3 +41,7 @@ https://rutube.ru/video/private/6ef678494cb0bef44871bf61f196cf33/?p=LFAVlyr05mzx
 
 Раздел 9. Лекция 3. Операции со словарями
 https://rutube.ru/video/private/6dfd246a77e8c3ee7a5cf62ca58a1f8f/?p=45r8nswAJ4zjxqaxRf0NjA
+
+
+Домашнее задание:
+https://disk.yandex.ru/d/-zx5wRzqzDba-w
