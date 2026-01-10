@@ -3,15 +3,16 @@
 # Задаем начальную зарплату
 #
 
-TARGET_SALARY = 1000000
+TARGET_INCOME = 1000000
 REAL_SALARY_GROWTH = 17
 AVG_INFLATION = 13
 STARTER_SALARY = 300000
 PERIOD_LEN_YEARS = 5
 SPENDING_SHARE = 10
 DEPOSIT_INTEREST_RATE = 17
+DEPOSITS_INITIAL_BALANCE = 2000000
 
-deposits_balance = 2000000
+deposits_balance = DEPOSITS_INITIAL_BALANCE
 current_salary = STARTER_SALARY
 is_target_income_reached = False
 for month in range(0, PERIOD_LEN_YEARS * 12):
@@ -27,7 +28,7 @@ for month in range(0, PERIOD_LEN_YEARS * 12):
     deposits_balance += round(savings)
     interest_income = deposits_balance * DEPOSIT_INTEREST_RATE / 100 / 12
     total_months_income = current_salary + interest_income
-    if total_months_income > TARGET_SALARY:
+    if total_months_income > TARGET_INCOME:
         print("Целевой уровень дохода достигнут")
         print("Заработная плата", current_salary,
               ", процентный доход:", interest_income)
