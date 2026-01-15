@@ -18,3 +18,7 @@ small_prices = filter(lambda p: p < 10, prices)
 str_prices = ['101', '125', '234', '99', '10', '23', '65']
 int_prices = list(map(int, str_prices))
 print(int_prices)
+
+
+# соединить два списка
+print(zip())

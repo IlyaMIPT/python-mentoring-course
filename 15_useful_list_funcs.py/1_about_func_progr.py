@@ -10,4 +10,5 @@ for elem in lst:
 print("Are all elements positive?", is_pos)
 
 # функциональный подход
-print("Are all elements positive? ", all([x > 0 for x in lst]))
+res = all([x > 0 for x in lst])
+print("Are all elements positive? ", res)
