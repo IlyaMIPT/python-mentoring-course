@@ -21,4 +21,4 @@ print(int_prices)
 
 
 # соединить два списка
-print(zip())
+print(list(zip([1, 2, 3], ['a', 'b', 'c'])))
