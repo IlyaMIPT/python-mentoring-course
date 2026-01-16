@@ -1,3 +1,4 @@
+# pylint: disable=wildcard-import
 import transfer
 # from forecasts import *
 from forecasts.linear import *
@@ -10,4 +11,4 @@ print("Linear forecasted price: ", linear_price)
 print("Naive forecasted price", last_price)
 
 # names with _ will not be imported if importing *
-_helper()
+# _helper()

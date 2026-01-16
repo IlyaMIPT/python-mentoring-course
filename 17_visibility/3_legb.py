@@ -1,3 +1,4 @@
+# pylint: disable=[global-statement, redefined-builtin]
 # LEGB rule:
 
 DEFAULT_FROM = 0
